@@ -46,9 +46,7 @@ provider "aws" {
 # VPC, Subnets, and Internet Gateway
 
 resource "aws_vpc" "app_vpc" {
-  cidr_block           = "10.0.0.0/16"
-  enable_dns_support   = true
-  enable_dns_hostnames = true
+  cidr_block = "10.0.0.0/16"
 
   tags = {
     Name = "app_vpc"
@@ -243,6 +241,6 @@ resource "aws_sns_topic" "alerts" {
 resource "aws_sns_topic_subscription" "email_subscription" {
   topic_arn = aws_sns_topic.alerts.arn
   protocol  = "email"
-  endpoint  = "admin@example.com" # Replace with your email
+  endpoint  = "khatib.a.samer@gmail.com"
 }
 
