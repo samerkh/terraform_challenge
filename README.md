@@ -24,3 +24,7 @@ This is a terraform code to deploy a web server and a database, including networ
 
 - Create security groups for the web server and database, and allow only HTTP and HTTPS traffic to the web server, and MySQL traffic to the database only through the server.
 - Create private subnet for the database and public subnet for the web server.
+
+# Results
+
+run `terraform plan` to see a dry-run of the terraform code. You can check the `plan_output.txt` file to see the output of the plan.
