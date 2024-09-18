@@ -1,6 +1,6 @@
 # Terraform Code Challenge
 
-this is a terraform code to deploy a web server and a database, including network configuration, security management, monitoring, and best practices. The code can be divided into multiple sections:
+This is a terraform code to deploy a web server and a database, including network configuration, security management, monitoring, and best practices. The code can be divided into multiple sections:
 
 ### Network Infrastructure
 
